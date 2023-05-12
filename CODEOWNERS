@@ -1,5 +1,18 @@
 #ECCN: 5D002.c.1
 ###########################################
-# Required blah blah, loremp ipsum
+#This file list the GitHub/GUS team/s that can approve a pull request for this repo. 
+#Note team/s must have WRITE (or higher) access to the repo 
 ###########################################
-* @devprodorg/managers
+#This is the directory hosting the grover exemption file. Managers, senior POC can be added but please have Luca to review the PR
+###########################################
+#Pick one and only one from the below GUS team list (that will be the default assignment for bugs logged against this repo), eliminate the others 
+
+#GUSINFO:COpTER Internal Tooling,AP-Falcon-COpTER
+
+/sfdc_metadata/cred_scan_triage/master/ @lvarallo @frompre-sfdc
+###########################################
+#Approval list for a pattern needs to be in one line, remove the teams not required as needed
+#* means all files and directories
+#Please do not remove @relateiq/ap-managers , that allows a manager to approve a PR as needed
+###########################################
+* @relateiq/devprod @relateiq/managers
